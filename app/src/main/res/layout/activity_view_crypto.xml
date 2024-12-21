@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price: "
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textPurchasePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchase Price: "
+        android:textSize="16sp"
+        android:layout_below="@id/textTotalPrice"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Size: "
+        android:textSize="16sp"
+        android:layout_below="@id/textPurchasePrice"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/textDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="16sp"
+        android:layout_below="@id/textSize"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"/>
+</RelativeLayout>
